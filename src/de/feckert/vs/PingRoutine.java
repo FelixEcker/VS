@@ -34,6 +34,8 @@ public class PingRoutine implements Runnable {
 						} else {
 							entry.timesUnreachable++;
 						}
+					} else {
+						entry.timesUnreachable = 0;
 					}
 				} catch (java.net.UnknownHostException e) {
 					Main.SERVER_REGISTRY.remove(id);
