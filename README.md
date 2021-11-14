@@ -41,8 +41,8 @@ If in the process of registering or requesting data, the server responds with ei
 there is no error and you can continue on as normal.
 
 #### Error Codes
-`0x0`: Unknown Error
-`0x1`: ID Already Taken
-`0x2`: Received invalid data (usually no enough)
-`0x3`: Invalid ID
-`0x4`: No Space (There is no space for creating a new Entry)
+`0x0`: Unknown Error <br>
+`0x1`: ID Already Taken <br>
+`0x2`: Received invalid data (usually no enough) <br>
+`0x3`: Invalid ID <br>
+`0x4`: No Space (There is no space for creating a new Entry) <br>
